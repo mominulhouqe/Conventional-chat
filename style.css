@@ -1,0 +1,73 @@
+
+
+
+
+.banner-img{
+    background-image: url('./images/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-img-2{
+    background-image: url('./images/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.banner-img-3{
+
+    background-image: url('./images/banner.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* 
+@media screen and (max-width: 578px) {
+    .happy{
+        flex-direction: column-reverse;
+
+    }
+    .happy-moment{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+} */
+.mycard{
+        border-radius: 4px;
+        background: blue;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        padding: 14px 80px 18px 36px;
+        cursor: pointer;
+    
+   
+    
+}
+.mycard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(56, 7, 7, 0.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* .client-items{
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(56, 7, 7, 0.12), 0 4px 8px rgba(0,0,0,.06);
+    padding-top: 30px;
+} */
+.client-items h3{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 676px) {
+    .d{
+        flex-direction: column-reverse;
+    }
+    .client{
+        flex-direction: column;
+    }
+    .quiesion , .footer{
+        flex-direction: column-reverse;
+    }
+ 
+    
+
+}
